@@ -59,6 +59,7 @@ LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
 
+ifeq ($(TARGET_NEEDS_VBC_EQ_SYMLINK),true)
 
 ifeq ($(TARGET_NEEDS_VBC_EQ_SYMLINK),true)
 
