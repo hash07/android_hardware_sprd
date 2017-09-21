@@ -61,7 +61,6 @@ LOCAL_C_INCLUDES += \
 	system/media/audio_utils/include \
 	system/media/audio_effects/include \
 	$(LOCAL_PATH)/record_process \
-	$(LOCAL_PATH)/../../libatchannel_wrapper \
 
 LOCAL_SRC_FILES := \
 	audio_hw.c \
