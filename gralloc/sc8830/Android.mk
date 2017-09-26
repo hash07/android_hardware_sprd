@@ -36,6 +36,8 @@ SHARED_MEM_LIBS := \
 	libion_sprd \
 	libhardware
 
+LOCAL_STATIC_LIBRARIES := libarect
+
 LOCAL_SHARED_LIBRARIES := \
 	liblog \
 	libcutils \
